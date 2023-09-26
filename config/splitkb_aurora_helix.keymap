@@ -28,7 +28,7 @@
 However, 'LANG1' and 'LANG2' are fully-functioning candidates for 'kana' and 'eisuu' input respectively.
 As such, those are in use within the default layer at this time.*/
 
-{
+/{
        keymap {
               compatible = "zmk,keymap";
 
@@ -45,7 +45,7 @@ As such, those are in use within the default layer at this time.*/
                      &kp GRAVE  &kp A    &kp S      &kp D    &kp F     &kp G                                &kp H     &kp J     &kp K     &kp L      &kp SEMI  &kp RET
                      &kp LSHFT  &kp Z    &kp X      &kp C    &kp V     &kp B     &kp CAPS         &kp BSLH  &kp N     &kp M     &kp COMMA &kp PERIOD &kp SLASH &kp SQT
                      &kp LCTRL  &kp LALT &mo ADJUST &kp LGUI &mo LOWER &kp SPACE &kp LBKT         &kp RBKT  &kp SPACE &mo RAISE &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT
-                     >
+                     >;
               };
               lower_layer {
                      // ---------------------------------------------------------------------------------------------------------------------------------
